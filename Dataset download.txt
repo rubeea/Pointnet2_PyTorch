@@ -1,0 +1,6 @@
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("quynguyen03/modelnet40-normal-resampled")
+
+print("Path to dataset files:", path)

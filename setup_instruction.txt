@@ -1,0 +1,3 @@
+-Clone the repository (or upload your modified version).
+-Change directory to pointnet2_ops_lib.
+-Run !python setup.py develop to build and install the library in the new environment.
