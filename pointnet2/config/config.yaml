@@ -2,6 +2,7 @@ defaults:
     - task: cls
     - model: ssg
     - task_model: ${defaults.0.task}-${defaults.1.model}
+    - _self_
 
 hydra:
   run:
